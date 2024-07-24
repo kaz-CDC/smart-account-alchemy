@@ -15,6 +15,13 @@ module.exports = {
     }
   },
   // Other configurations...
+  // networks: {
+  //  cronos_mainnet: {
+  //     chainId: 25,
+  //     url: "https://evm.cronos.org/",
+  //     accounts: [CRONOS_PRIVATE_KEY],
+  //   },
+  // },
 };
 
 

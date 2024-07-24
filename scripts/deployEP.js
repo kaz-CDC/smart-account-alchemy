@@ -1,13 +1,8 @@
 const hre = require("hardhat");
 
 async function main() {
-//   const af = await hre.ethers.deployContract("AccountFactory");
 
-//   await af.waitForDeployment();
-
-//   console.log(`AF deployed to ${af.target}`);
-
-  const ep = await hre.ethers.deployContract("EntryPoint");
+  const ep = await hre.ethers.deployContract("EntryPoint"); //this deploys the EntryPoint.sol contract
 
   await ep.waitForDeployment();
 
